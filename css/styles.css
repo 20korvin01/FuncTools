@@ -5,6 +5,8 @@
     font-family: 'Tahoma', sans-serif;
 }
 
+html, body { height: 100%; }
+
 /* ----------------- Navbar ----------------- */
 .navbar {
     background: #242323;
@@ -99,7 +101,6 @@
 }
 
 /* ----------------- Home Page ----------------- */
-html, body { height: 100%; }
 
 .home__container {
     background:rgb(107, 106, 102);
@@ -118,6 +119,48 @@ html, body { height: 100%; }
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
+}
+
+/* ----------------- Function Page ----------------- */
+
+.function__container {
+    background:rgb(160, 132, 18);
+    min-height:auto;
+    height: 100%;
+    font-family: 'Tahoma', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+/* ----------------- Manage Page ----------------- */
+
+.manage__container {
+    background:rgb(168, 101, 69);
+    min-height:auto;
+    height: 100%;
+    font-family: 'Tahoma', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+/* ----------------- Trafo Page ----------------- */
+
+.trafo__container {
+    background:rgb(69, 63, 153);
+    min-height:auto;
+    height: 100%;
+    font-family: 'Tahoma', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
 }
 
 /* ----------------- Footer CSS ----------------- */
