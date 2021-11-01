@@ -126,6 +126,42 @@ html, body { height: 100%; }
 .function__container {
     background:rgb(160, 132, 18);
     min-height:auto;
+    height: 30%;
+    font-family: 'Tahoma', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.pyth__container {
+    background:rgb(143, 63, 153);
+    min-height:auto;
+    height: 100%;
+    font-family: 'Tahoma', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.ortho__container {
+    background:rgb(63, 80, 153);
+    min-height:auto;
+    height: 100%;
+    font-family: 'Tahoma', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.schalt__container {
+    background:rgb(122, 153, 63);
+    min-height:auto;
     height: 100%;
     font-family: 'Tahoma', sans-serif;
     display: flex;
@@ -140,6 +176,30 @@ html, body { height: 100%; }
 .manage__container {
     background:rgb(168, 101, 69);
     min-height:auto;
+    height: 30%;
+    font-family: 'Tahoma', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.noten__container {
+    background:rgb(111, 153, 63);
+    min-height:auto;
+    height: 100%;
+    font-family: 'Tahoma', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.auto__container {
+    background:rgb(63, 128, 153);
+    min-height:auto;
     height: 100%;
     font-family: 'Tahoma', sans-serif;
     display: flex;
@@ -153,6 +213,42 @@ html, body { height: 100%; }
 
 .trafo__container {
     background:rgb(69, 63, 153);
+    min-height:auto;
+    height: 30%;
+    font-family: 'Tahoma', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.himricht__container {
+    background:rgb(63, 120, 153);
+    min-height:auto;
+    height: 100%;
+    font-family: 'Tahoma', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.winkel__container {
+    background:rgb(63, 153, 101);
+    min-height:auto;
+    height: 100%;
+    font-family: 'Tahoma', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.koors__container {
+    background:rgb(137, 153, 63);
     min-height:auto;
     height: 100%;
     font-family: 'Tahoma', sans-serif;
