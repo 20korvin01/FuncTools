@@ -2,7 +2,7 @@ html, body { height: 100%; }
 
 /* ----------------- Trafo Page ----------------- */
 
-.trafo__container {
+.trafo__header {
     background:rgb(69, 63, 153);
     min-height:auto;
     height: 30%;
@@ -11,19 +11,26 @@ html, body { height: 100%; }
     justify-content: center;
     text-align: center;
     align-items: center;
-    font-size: 50px;
+    font-size:  calc(40px + (28 - 16) * ((100vw - 320px) / (1600 - 320)));
 }
 
-.himricht__container {
+.himmel {
     background:rgb(63, 120, 153);
     min-height:auto;
     height: 100%;
+}
+
+.himmel__title {
     font-family: 'Tahoma', sans-serif;
-    display: flex;
-    justify-content: center;
     text-align: center;
-    align-items: center;
-    font-size: 50px;
+    font-size:  calc(16px + (28 - 16) * ((100vw - 320px) / (1600 - 320)));
+    color: white;
+    padding: 20px;
+    border: solid silver;
+    border-radius: 20px;
+    border-width: 2px;
+    box-sizing: border-box;
+    width: 43%;
 }
 
 .winkel__container {
