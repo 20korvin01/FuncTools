@@ -1,0 +1,51 @@
+html, body { height: 100%; }
+
+/* ----------------- Trafo Page ----------------- */
+
+.trafo__container {
+    background:rgb(69, 63, 153);
+    min-height:auto;
+    height: 30%;
+    font-family: 'Tahoma', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.himricht__container {
+    background:rgb(63, 120, 153);
+    min-height:auto;
+    height: 100%;
+    font-family: 'Tahoma', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.winkel__container {
+    background:rgb(63, 153, 101);
+    min-height:auto;
+    height: 100%;
+    font-family: 'Tahoma', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.koors__container {
+    background:rgb(137, 153, 63);
+    min-height:auto;
+    height: 100%;
+    font-family: 'Tahoma', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+}

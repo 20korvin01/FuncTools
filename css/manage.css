@@ -1,0 +1,39 @@
+html, body { height: 100%; }
+
+/* ----------------- Manage Page ----------------- */
+
+.manage__container {
+    background:rgb(168, 101, 69);
+    min-height:auto;
+    height: 30%;
+    font-family: 'Tahoma', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.noten__container {
+    background:rgb(111, 153, 63);
+    min-height:auto;
+    height: 100%;
+    font-family: 'Tahoma', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.auto__container {
+    background:rgb(63, 128, 153);
+    min-height:auto;
+    height: 100%;
+    font-family: 'Tahoma', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+}

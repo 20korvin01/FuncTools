@@ -1,0 +1,51 @@
+html, body { height: 100%; }
+
+/* ----------------- Function Page ----------------- */
+
+.function__container {
+    background:rgb(160, 132, 18);
+    min-height:auto;
+    height: 30%;
+    font-family: 'Tahoma', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.pyth__container {
+    background:rgb(143, 63, 153);
+    min-height:auto;
+    height: 100%;
+    font-family: 'Tahoma', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.ortho__container {
+    background:rgb(63, 80, 153);
+    min-height:auto;
+    height: 100%;
+    font-family: 'Tahoma', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.schalt__container {
+    background:rgb(122, 153, 63);
+    min-height:auto;
+    height: 100%;
+    font-family: 'Tahoma', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+}

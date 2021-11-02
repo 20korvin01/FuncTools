@@ -1,0 +1,22 @@
+html, body { height: 100%; }
+
+/* ----------------- Home Page ----------------- */
+
+.home__container {
+    background:rgb(107, 106, 102);
+    min-height:auto;
+    height: 100%;
+    font-family: 'Tahoma', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.home__content span{
+    background-image: linear-gradient(to top, #ff2d08 0%, #f1e040 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
