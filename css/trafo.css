@@ -4,13 +4,13 @@ html, body { height: 100%; }
 
 .trafo__header {
     background:rgb(69, 63, 153);
-    min-height:auto;
-    height: 30%;
-    font-family: 'Tahoma', sans-serif;
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
+    min-height:auto;
+    height: 30%;
+    font-family: 'Tahoma', sans-serif;
     font-size:  calc(40px + (28 - 16) * ((100vw - 320px) / (1600 - 320)));
 }
 
@@ -30,7 +30,7 @@ html, body { height: 100%; }
     border-radius: 20px;
     border-width: 2px;
     box-sizing: border-box;
-    width: 43%;
+    width: 50%;
 }
 
 .winkel__container {
