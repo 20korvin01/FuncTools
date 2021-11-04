@@ -7,7 +7,7 @@
     text-align: center;
     align-items: center;
     min-height:auto;
-    height: calc(30% + (28 - 16) * ((100vw - 320px) / (1600 - 320)));
+    height: calc(20% + (28 - 16) * ((100vw - 320px) / (1600 - 320)));
     font-family: 'Tahoma', sans-serif;
     font-size:  calc(40px + (28 - 16) * ((100vw - 320px) / (2000)));
     color: silver;
