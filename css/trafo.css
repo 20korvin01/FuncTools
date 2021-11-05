@@ -1,7 +1,7 @@
 /* ----------------- Trafo Page ----------------- */
 
 .trafo__header {
-    background:rgb(22, 86, 122);
+    background:rgba(22, 85, 122, 0.801);
     display: flex;
     justify-content: center;
     text-align: center;
@@ -11,6 +11,7 @@
     font-family: 'Tahoma', sans-serif;
     font-size:  3vw;
     color: silver;
+    border-top: 1px solid silver;
     border-bottom: 1px solid silver;
     border-radius: 2.8vw;
 }

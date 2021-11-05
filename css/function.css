@@ -1,7 +1,7 @@
 /* ----------------- Function Page ----------------- */
 
 .function__header {
-    background:rgba(0, 172, 0, 0.76);
+    background:rgba(0, 172, 0, 0.561);
     display: flex;
     justify-content: center;
     text-align: center;
@@ -11,6 +11,7 @@
     font-family: 'Tahoma', sans-serif;
     font-size:  3vw;
     color: silver;
+    border-top: 1px solid silver;
     border-bottom: 1px solid silver;
     border-radius: 2.8vw;
 }
@@ -19,15 +20,15 @@
     font-family: 'Tahoma', sans-serif;
     text-align: left;
     font-size:  2vw;
-    color: rgb(114, 165, 199);
+    color: rgb(121, 199, 114);
     padding: 1vw;
-    border-left: 0.4vw solid rgb(114, 165, 199);
+    border-left: 0.4vw solid rgb(121, 199, 114);
     border-radius: 1.4vw;
     width: 100%;
 }
 
 .container {
-    background:rgba(0, 172, 0, 0.89);
+    background:rgba(0, 172, 0, 0.787);
     min-height:auto;
     height: 100%;
     border-top: 1px solid silver;

@@ -1,39 +1,49 @@
-html, body { height: 100%; }
-
 /* ----------------- Manage Page ----------------- */
 
-.manage__container {
-    background:rgb(168, 101, 69);
-    min-height:auto;
-    height: 30%;
-    font-family: 'Tahoma', sans-serif;
+.manage__header {
+    background:rgba(236, 90, 5, 0.65);
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
-    font-size: 50px;
+    min-height:auto;
+    height: 10vw;
+    font-family: 'Tahoma', sans-serif;
+    font-size:  3vw;
+    color: silver;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+    border-radius: 2.8vw;
 }
 
-.noten__container {
-    background:rgb(111, 153, 63);
-    min-height:auto;
-    height: 100%;
+#title{
     font-family: 'Tahoma', sans-serif;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    font-size: 50px;
+    text-align: left;
+    font-size:  2vw;
+    color: rgb(226, 140, 100);
+    padding: 1vw;
+    border-left: 0.4vw solid rgb(226, 140, 100);
+    border-radius: 1.4vw;
+    width: 100%;
 }
 
-.auto__container {
-    background:rgb(63, 128, 153);
+.container {
+    background:rgb(236, 90, 5, 0.801);
     min-height:auto;
     height: 100%;
-    font-family: 'Tahoma', sans-serif;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    font-size: 50px;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+    border-radius: 2.8vw;
+}
+
+/* Notenverwaltung */
+#noten__paragraph {
+    font-size: 80px;
+    margin: 60px;
+}
+
+/* Autoverwaltung */
+#auto__paragraph {
+    font-size: 80px;
+    margin: 60px;
 }
