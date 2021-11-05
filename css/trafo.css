@@ -1,7 +1,7 @@
 /* ----------------- Trafo Page ----------------- */
 
 .trafo__header {
-    background:rgb(69, 63, 153);
+    background:rgb(22, 86, 122);
     display: flex;
     justify-content: center;
     text-align: center;
@@ -9,49 +9,46 @@
     min-height:auto;
     height: calc(20% + (28 - 16) * ((100vw - 320px) / (1600 - 320)));
     font-family: 'Tahoma', sans-serif;
-    font-size:  calc(40px + (28 - 16) * ((100vw - 320px) / (2000)));
+    font-size:  calc(35px + (28 - 16) * ((100vw - 320px) / (2000)));
     color: silver;
+    border-bottom: 1px solid silver;
+    border-radius: 40px;
 }
 
-.himmel {
-    background:rgb(63, 120, 153);
-    min-height:auto;
-    height: 100%;
-}
-
-.himmel__title {
+#title{
     font-family: 'Tahoma', sans-serif;
-    text-align: center;
+    text-align: left;
     font-size:  calc(16px + (28 - 16) * ((100vw - 320px) / (1600 - 320)));
     color: silver;
     padding: 20px;
-    border: solid silver;
+    border-left: 7px solid rgb(114, 165, 199);
     border-radius: 20px;
-    border-width: 2px;
-    box-sizing: border-box;
-    width: 50%;
+    width: 100%;
 }
 
-.winkel__container {
-    background:rgb(63, 153, 101);
+.container {
+    background:rgb(28, 99, 141);
     min-height:auto;
     height: 100%;
-    font-family: 'Tahoma', sans-serif;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    font-size: 50px;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+    border-radius: 40px;
 }
 
-.koors__container {
-    background:rgb(137, 153, 63);
-    min-height:auto;
-    height: 100%;
-    font-family: 'Tahoma', sans-serif;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    font-size: 50px;
+/* Himmelsrichtungen */
+#himmel__paragraph {
+    font-size: 80px;
+    margin: 60px;
+}
+
+/* Winkeltransformationen */
+#winkel__paragraph {
+    font-size: 80px;
+    margin: 60px;
+}
+
+/* koordinatentransformationen */
+#koors__paragraph {
+    font-size: 80px;
+    margin: 60px;
 }
