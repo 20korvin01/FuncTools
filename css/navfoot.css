@@ -38,8 +38,6 @@ html, body {
 
 .navbar__menu {
     display: flex;
-    align-items: center;
-    list-style: none;
 }
 
 .navbar__tasks {

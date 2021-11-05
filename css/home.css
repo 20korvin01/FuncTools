@@ -11,7 +11,7 @@ html, body { height: 100%; }
     justify-content: center;
     text-align: center;
     align-items: center;
-    font-size: 50px;
+    font-size: 5vw;
 }
 
 .home__content span{
