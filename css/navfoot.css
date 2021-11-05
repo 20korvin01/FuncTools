@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: 'Tahoma', sans-serif;
+    margin: 0;
 }
 
 html, body {
@@ -12,7 +13,7 @@ html, body {
 .navbar {
     background: #242323;
     height: 5vw;
-    border-bottom: 2px solid silver;
+    border-bottom: 0.15vw solid silver;
 }
 
 .navbar__container {
@@ -35,27 +36,30 @@ html, body {
 
 .navbar__menu {
     display: flex;
+    align-items: center;
+    font-size: 4vw;
 }
 
 .navbar__tasks {
     display: inline-block;
     height: 5vw;
     position: relative;
-    font-size: 1vw;
+    font-size: 2vw;
+    padding: 1vw;
     
 }
 
 .navbar__links {
     color: #fff;
-    border: 2px solid silver;
+    border: 0.2vw solid silver;
     box-sizing: border-box;
     border-radius: 1.4vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 11vw;
+    width: 18vw;
     text-decoration: none;
-    height: 2.3vw;
+    height: 3.5vw;
     transition: all 0.5s ease;
 }
 
@@ -95,8 +99,8 @@ html, body {
 /* ----------------- Footer CSS ----------------- */
 .footer__container {
     background-color: #242323;
-    height: 4vw;
-    border-top: 2px solid silver;
+    height: 5vw;
+    border-top: 0.15vw solid silver;
   }
 
   #website__rights {
@@ -104,6 +108,6 @@ html, body {
     font-family: Garamond;
     text-align: center;
     color: #d8c9c944;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 1.25vw;
+    padding-bottom: 1.25vw;
   }
