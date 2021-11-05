@@ -79,8 +79,7 @@ html, body {
     border: 0.2vw solid silver;
     border-top-color: #242323;
     border-radius: 0px 0px 1.4vw 1.4vw;
-
-    text-align: center;
+    margin-top: 0.3vw;
 }
 
 .navbar__tasks:hover .navbar__items { display: block; }
