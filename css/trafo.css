@@ -19,7 +19,7 @@
     font-family: 'Tahoma', sans-serif;
     text-align: left;
     font-size:  calc(16px + (28 - 16) * ((100vw - 320px) / (1600 - 320)));
-    color: silver;
+    color: rgb(114, 165, 199);
     padding: 20px;
     border-left: 7px solid rgb(114, 165, 199);
     border-radius: 20px;
