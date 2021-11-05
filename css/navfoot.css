@@ -1,7 +1,5 @@
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
     font-family: 'Tahoma', sans-serif;
 }
 
@@ -13,17 +11,16 @@ html, body {
 /* ----------------- Navbar ----------------- */
 .navbar {
     background: #242323;
-    height: 80px;
+    height: 5vw;
     border-bottom: 2px solid silver;
 }
 
 .navbar__container {
     display: flex;
     justify-content: space-between;
-    height: 80px;
+    height: 5vw;
     width: 100%;
-    max-width: 1300px;
-    padding: 0 50px;
+    padding: 0 3vw;
 }
 
 #navbar__logo {
@@ -33,7 +30,7 @@ html, body {
     display: flex;
     align-items: center;
     text-decoration: none;
-    font-size: 3rem;
+    font-size: 4vw;
 }
 
 .navbar__menu {
@@ -42,26 +39,23 @@ html, body {
 
 .navbar__tasks {
     display: inline-block;
-    height: 80px;
+    height: 5vw;
     position: relative;
-    margin-left: 10px;
-    font-size: 22px;
+    font-size: 1vw;
     
 }
 
 .navbar__links {
     color: #fff;
-    border: 1px solid silver;
+    border: 2px solid silver;
     box-sizing: border-box;
-    border-radius: 20px;
-    border-width: 2px;
-    margin: 20px;
+    border-radius: 1.4vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 200px;
+    width: 11vw;
     text-decoration: none;
-    height: 40px;
+    height: 2.3vw;
     transition: all 0.5s ease;
 }
 
@@ -73,18 +67,15 @@ html, body {
 .navbar__items {
     display: none;
     width: 100%;
-    margin-left: 24px;
     overflow: auto;
     list-style: none;
     background: #242323;
-    margin-left: -1px;
-    margin-top: -3px;
-    padding-bottom: 10px;
+    padding-bottom: 0.7vw;
     text-align: center;
-    border: 0px solid silver;
-    border-width: 2px;
+    border: 2px solid silver;
     border-top-color: #242323;
-    border-radius: 0px 0px 20px 20px;    
+    border-radius: 0px 0px 20px 20px;
+    margin-top: 1.7vw; 
 }
 
 .navbar__tasks:hover .navbar__items { display: block; }
@@ -92,7 +83,7 @@ html, body {
 .items {
     color: #fff;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1vw;
     transition: all 0.5s ease;
 }
 
@@ -104,12 +95,12 @@ html, body {
 /* ----------------- Footer CSS ----------------- */
 .footer__container {
     background-color: #242323;
-    height: 70px;
+    height: 4vw;
     border-top: 2px solid silver;
   }
 
   #website__rights {
-    font-size: 30px;
+    font-size: 2.5vw;
     font-family: Garamond;
     text-align: center;
     color: #d8c9c944;
