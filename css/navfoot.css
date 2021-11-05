@@ -51,7 +51,7 @@ html, body {
 
 .navbar__links {
     color: #fff;
-    border: 0.2vw solid silver;
+    border: 0.14vw solid silver;
     box-sizing: border-box;
     border-radius: 1.4vw;
     display: flex;
@@ -76,10 +76,11 @@ html, body {
     background: #242323;
     padding-bottom: 0.7vw;
     text-align: center;
-    border: 2px solid silver;
+    border: 0.2vw solid silver;
     border-top-color: #242323;
-    border-radius: 0px 0px 20px 20px;
-    margin-top: 1.7vw; 
+    border-radius: 0px 0px 1.4vw 1.4vw;
+
+    text-align: center;
 }
 
 .navbar__tasks:hover .navbar__items { display: block; }

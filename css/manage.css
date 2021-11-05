@@ -11,8 +11,8 @@
     font-family: 'Tahoma', sans-serif;
     font-size:  3vw;
     color: silver;
-    border-top: 1px solid silver;
-    border-bottom: 1px solid silver;
+    border-top: 0.15vw  solid silver;
+    border-bottom: 0.15vw  solid silver;
     border-radius: 2.8vw;
 }
 
@@ -22,7 +22,7 @@
     font-size:  2vw;
     color: rgb(226, 140, 100);
     padding: 1vw;
-    border-left: 0.4vw solid rgb(226, 140, 100);
+    border-left: 0.4vw  solid rgb(226, 140, 100);
     border-radius: 1.4vw;
     width: 100%;
 }
@@ -31,8 +31,8 @@
     background:rgb(236, 90, 5, 0.801);
     min-height:auto;
     height: 100%;
-    border-top: 1px solid silver;
-    border-bottom: 1px solid silver;
+    border-top: 0.15vw  solid silver;
+    border-bottom: 0.15vw  solid silver;
     border-radius: 2.8vw;
 }
 
