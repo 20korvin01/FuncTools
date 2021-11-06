@@ -69,25 +69,23 @@ html, body {
 }
 
 .navbar__items {
-    display: none;
     width: 100%;
-    overflow: auto;
     list-style: none;
     background: #242323;
     padding-bottom: 0.7vw;
-    text-align: center;
     border: 0.2vw solid silver;
     border-top-color: #242323;
     border-radius: 0px 0px 1.4vw 1.4vw;
     margin-top: 0.3vw;
+    text-align: center;
 }
 
 .navbar__tasks:hover .navbar__items { display: block; }
 
 .items {
-    color: #fff;
+    color: silver;
     text-decoration: none;
-    font-size: 1vw;
+    font-size: 1.5vw;
     transition: all 0.5s ease;
 }
 
