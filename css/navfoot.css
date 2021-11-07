@@ -58,12 +58,12 @@ html, body {
     width: 18vw;
     text-decoration: none;
     height: 3.5vw;
-    transition: all 0.5s ease;
 }
 
 .navbar__links:hover {
-    color: #ffe609de;
-    transition: all 0.3s ease;
+    background-image: linear-gradient(to top, #ff2d08 0%, #f1e040 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .navbar__items {
@@ -86,12 +86,12 @@ html, body {
     color: silver;
     text-decoration: none;
     font-size: 1.5vw;
-    transition: all 0.5s ease;
 }
 
 .items:hover {
-    color: rgb(98, 98, 185);
-    transition: all 0.3s ease;
+    background-image: linear-gradient(to top, #ff2d08 0%, #f1e040 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* ----------------- Footer CSS ----------------- */
