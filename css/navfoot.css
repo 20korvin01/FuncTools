@@ -37,7 +37,6 @@ html, body {
 .navbar__menu {
     display: flex;
     align-items: center;
-    font-size: 4vw;
 }
 
 .navbar__tasks {
@@ -46,11 +45,10 @@ html, body {
     position: relative;
     font-size: 2vw;
     padding: 1vw;
-    
 }
 
 .navbar__links {
-    color: #fff;
+    color: silver;
     border: 0.14vw solid silver;
     box-sizing: border-box;
     border-radius: 1.4vw;
@@ -69,14 +67,16 @@ html, body {
 }
 
 .navbar__items {
+    display: none;
     width: 100%;
     list-style: none;
-    background: #242323;
+    padding: 0;
     padding-bottom: 0.7vw;
-    border: 0.2vw solid silver;
+    margin-top: 0.3vw;
+    background: #242323;
+    border: 0.3vw solid silver;
     border-top-color: #242323;
     border-radius: 0px 0px 1.4vw 1.4vw;
-    margin-top: 0.3vw;
     text-align: center;
 }
 
