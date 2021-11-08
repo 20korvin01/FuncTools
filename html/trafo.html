@@ -48,7 +48,6 @@
         </header>
 
         <article class="container" id="himmel">
-            <br>
             <p id="title">H I M M E L S R I C H T U N G E N</p>
             <table class="himmel__table">
                 <colgroup>
@@ -57,11 +56,15 @@
                 </colgroup>
                 <tr>
                     <td id="form">
-                        <label id="himmel__label">zu transformierende Windrichtung (°)</label><br><br>
+                        <label id="himmel__label">zu transformierende Windrichtung (°)</label><br>
                         <input type="text" id="grad__in">
-                        <button type="button" onclick="himmelTrafo(getElementById(grad__in))" id="himmel__button">↻</button>
-                        <br>
-                        <p id="himmel__result"> <output id="grad__out"></output> <br>entsprechen der Windrichtung<br>xxx</p></td>
+                        <button type="button" onclick="himmelTrafo(getElementById(grad__in))" id="himmel__button">↻</button><br>
+                        <table id="himmel__result">
+                            <tr>
+                                <td><output id="grad__out">xxx</output></td>                                   
+                            </tr>
+                        </table>
+                    </td>
                     <td style="text-align: center;" id="pic">
                         <img src="../img/windrose_raw.png" id="windrose">
                     </td>
@@ -82,10 +85,12 @@
         </article>
 
         <!-- Footer Section -->
-        <div class="footer__container">
+        <footer class="footer__container">
             <div id="website__rights">
                 © KV 2021. All rights reserved
             </div>
-        </div>
+        </footer>
+
+        <script src="app.js"></script>
     </body>
 </html>
