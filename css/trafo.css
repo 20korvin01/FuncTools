@@ -38,8 +38,7 @@
 
 /* Himmelsrichtungen */
 .himmel__table{
-    margin-left:auto;
-    margin-right:auto;
+    margin:auto;
     border: 0.3vw solid rgb(114, 165, 199);
     border-left-width: 0.2vw;
     border-right-width: 0.2vw;
@@ -62,7 +61,7 @@
     padding: 1vw;
 }
 
-#grad {
+#grad__in {
     width: 25vw;
     height: 10vw;
     background-color: rgba(22, 85, 122, 0.801);
@@ -79,35 +78,34 @@
     width: 5vw;
     height: 10vw;
     background-color: rgba(24, 22, 122, 0.801);
-    font-size: 4vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vw;
     text-align: center;
     vertical-align: middle;
     color: silver;
     border: 0.1vw solid silver;
     border-radius: 1vw;
-    transition-duration: 0.4s;
-    overflow: hidden;
     cursor: pointer;
 }
 
-#himmel__button:after {
-  content: "";
-  background: rgb(114, 165, 199);
-  display: block;
-  position: absolute;
-  padding-top: 300%;
-  padding-left: 350%;
-  margin-left: -20px!important;
-  margin-top: -120%;
-  opacity: 0;
-  transition: all 0.8s
+#himmel__button:hover {
+  background: rgba(61, 157, 221, 0.664);
+  transition-duration: 1s;
 }
 
-.button:active:after {
-  padding: 0;
-  margin: 0;
-  opacity: 1;
-  transition: 0s
+#himmel__button:active {
+    background: rgba(24, 22, 122, 0.801);
+    transition-duration: 90ms;
+}
+
+#himmel__result {
+    color: silver;
+    font-size: 2vw;
+    margin-top: 1vw;
+    padding-top: 1vw;
+    padding-bottom: 2vw;
+    border: 0.1vw solid rgb(149, 228, 166);
+    border-radius: 1vw;
 }
 
 #windrose {
