@@ -9,6 +9,10 @@ function himmelTrafo() {
         document.getElementById("grad__out").value = 'Eingebefehler! \n Zahl muss positiv sein!'; // input should be positive
         document.getElementById("windrose").src = '../img/windrosen/windrose_raw.png'
     }
+    else if (grad === "") {
+        document.getElementById("grad__out").value = "";
+        document.getElementById("windrose").src = '../img/windrosen/windrose_raw.png'
+    }
     else {
         var wind = ['Norden', 'Nord-Nord-Osten', 'Nord-Osten', 'Ost-Nord-Osten', 'Osten', 'Ost-Süd-Osten', 'Süd-Osten', 'Süd-Süd-Osten', 'Süden', 'Süd-Süd-Westen', 'Süd-Westen', 'West-Süd-Westen', 'Westen', 'West-Nord-Westen', 'Nord-Westen', 'Nord-Nord-Westen']
         
