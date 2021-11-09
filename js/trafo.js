@@ -20,7 +20,6 @@ function himmelTrafo() {
         var anteil = 360 / 16;
         var ende = 360 / 32;
         var j = 0;
-        
         while (grad > ende) {
             ende += anteil;
             j++;
@@ -32,3 +31,4 @@ function himmelTrafo() {
         document.getElementById("windrose").src = `../img/windrosen/${wind[j].toLowerCase()}.png`
     }
 }
+
