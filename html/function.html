@@ -5,6 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Funktionen</title>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin=""/>
         <link rel="stylesheet" href="../css/navfoot.css">
         <link rel="stylesheet" href="../css/function.css">
     </head>
@@ -23,10 +26,10 @@
                         </ul>
                     </li>
                     <li class="navbar__tasks">
-                        <a href="function.html" class="navbar__links" id="func-page" style="color: rgba(0, 172, 0, 0.561); border-color: rgba(0, 172, 0, 0.561);">Funktionen</a>
+                        <a href="function.html" class="navbar__links" id="func-page" style="color: rgb(121, 199, 114); border-color: rgb(121, 199, 114);">Funktionen</a>
                         <ul class="navbar__items">
-                            <li><a href="function.html#pyth" class="items" title="Pythagoras">Pythagoras</a></li>
                             <li><a href="function.html#ortho" class="items" title="Orthodrome">Orthodrome</a></li>
+                            <li><a href="function.html#pyth" class="items" title="Pythagoras">Pythagoras</a></li>
                             <li><a href="function.html#schalt" class="items" title="Schaltjahrprüfung">Schaltjahre</a></li>
                         </ul>
                     </li>
@@ -46,16 +49,26 @@
             Es folgen einige praktische Funktionen...
         </header>
 
+        <article class="container" id="ortho">
+            <br>
+            <p id="title">O R T H O D R O M E</p>
+            <table class="ortho__table">
+                <tr>
+                    <td id="ortho__header">Wähle mehrere Orte auf Karte!</td>
+                </tr>
+                <tr>
+                    <td id="map"></td>
+                </tr>
+                <tr>
+                    <td id="ortho__out">Die kürzeste Entfernung zwischen den Orten in deiner Reihenfolge beträgt <output>xxx</output> km</td>
+                </tr>
+                </table>
+        </article>
+
         <article class="container" id="pyth">
             <br>
             <p id="title">P Y T H A G O R A S</p>
             <p id="pyth__paragraph">Hier kommt noch was hin.</p>
-        </article>
-
-        <article class="container" id="ortho">
-            <br>
-            <p id="title">O R T H O D R O M E</p>
-            <p id="ortho__paragraph">Hier kommt noch was hin.</p>
         </article>
 
         <article class="container" id="schalt">
@@ -70,6 +83,10 @@
                 © KV 2021. All rights reserved
             </div>
         </footer>
-        
+
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+        <script src="../js/function.js"></script>
     </body>
 </html>

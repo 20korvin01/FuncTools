@@ -36,14 +36,39 @@
     border-radius: 2.8vw;
 }
 
-/* Pythagoras */
-#pyth__paragraph {
-    font-size: 80px;
-    margin: 60px;
+/* Orthodrome */
+.ortho__table{
+    margin:auto;
+    border: 0.3vw solid rgb(121, 199, 114);
+    border-left-width: 0.2vw;
+    border-right-width: 0.2vw;
+    border-radius: 1.4vw;
+    padding: 1vw;
+    text-align: center;
 }
 
-/* Orthodrome */
-#ortho__paragraph {
+#ortho__header{
+    color: silver;
+    font-size: min(max(1vw, 4vw), 2vw);
+    font-family: 'Tahoma', sans-serif;
+    border-bottom: 0.2vw solid rgb(121, 199, 114);
+    padding: 1vw;
+}
+
+#map {
+    height: 50vh;
+    width: 80vw;
+}
+
+#ortho__out {
+    border-top: 0.2vw solid rgb(121, 199, 114);
+    color: silver;
+    font-size: min(max(1vw, 4vw), 2vw);
+    font-family: 'Tahoma', sans-serif;
+}
+
+/* Pythagoras */
+#pyth__paragraph {
     font-size: 80px;
     margin: 60px;
 }
