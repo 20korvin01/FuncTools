@@ -1,8 +1,7 @@
 var osmUrl = 'http://{s}.tile.osm.org/{z}/{x}/{y}.png',
-    osmAttrib = '&copy; <a href="http://openstreetmap.org/copyright">OpenStreetMap</a>',
     osm = L.tileLayer(osmUrl, {
         maxZoom: 18,
-        attribution: osmAttrib
+        attribution: '&copy; <a href="http://openstreetmap.org/copyright">OpenStreetMap</a>'
     });
 
 var map = L.map('map').setView([53.540309, 10.004968], 12).addLayer(osm);

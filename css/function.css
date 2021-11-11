@@ -1,7 +1,7 @@
 /* ----------------- Function Page ----------------- */
 
 .function__header {
-    background:rgba(0, 172, 0, 0.561);
+    background: rgba(0, 172, 0, 0.561);
     display: flex;
     justify-content: center;
     text-align: center;
@@ -25,6 +25,8 @@
     border-left: 0.4vw solid rgb(121, 199, 114);
     border-radius: 1.4vw;
     width: 100%;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 
 .container {
@@ -51,17 +53,47 @@
     color: silver;
     font-size: min(max(1vw, 4vw), 2vw);
     font-family: 'Tahoma', sans-serif;
-    border-bottom: 0.2vw solid rgb(121, 199, 114);
     padding: 1vw;
 }
 
+#ortho__header span{
+    padding: 2px;
+    border: 0.5px solid silver;
+    border-radius: 10px;
+}
+
+#ortho__button {
+    width: 5vw;
+    height: 10vh;
+    background-color: rgb(6, 110, 6);
+    font-family: 'Roboto', sans-serif;
+    font-size: min(max(1vw, 2vw), 2vw);
+    text-align: center;
+    vertical-align: middle;
+    padding: 0;
+    color: silver;
+    border: 0.1vw solid silver;
+    border-radius: 1vw;
+    cursor: pointer;
+}
+
+#ortho__button:hover {
+  background: rgb(121, 199, 114);
+  transition-duration: 1s;
+}
+
+#ortho__button:active {
+    background: rgba(0, 172, 0, 0.239);
+    transition-duration: 90ms;
+}
+
 #map {
+    border: 0.2vw solid rgb(121, 199, 114);
     height: 50vh;
     width: 80vw;
 }
 
 #ortho__out {
-    border-top: 0.2vw solid rgb(121, 199, 114);
     color: silver;
     font-size: min(max(1vw, 4vw), 2vw);
     font-family: 'Tahoma', sans-serif;
