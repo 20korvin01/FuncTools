@@ -43,5 +43,5 @@ function orthodrome() {
         lngB = locations[i+1][1] * rho;
         distance += radius * Math.acos(Math.sin(latA) * Math.sin(latB) + Math.cos(latA) * Math.cos(latB) * Math.cos(lngB - lngA));
     }
-    document.getElementById("distance").value = distance;
+    document.getElementById("distance").value = distance.toFixed(3);
 }
